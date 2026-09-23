@@ -41,7 +41,7 @@ namespace AplikasiKasirTokoBuku
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow row = dgvStokGudang.Rows[e.RowIndex];
-                // Mencatat ID buku target penanda pasokan beserta penulisan teks penunjuk rincian nama buku di label informasi UI
+                // Mencatat ID buku target penanda pasokan beserta penulisan teks penunjuk rincian nama buku di label informasi UI fguydsjsdvg
                 selectedIdBukuStok = Convert.ToInt32(row.Cells["id_buku"].Value);
                 lblBukuTerpilih.Text = row.Cells["kode_buku"].Value.ToString() + " - " + row.Cells["judul"].Value.ToString();
             }
