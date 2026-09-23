@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace AplikasiKasirTokoBuku
+{
+    static class Program
+    {
+        // 1. Membuat variabel penampung status sesi login global aplikasi (bisa dibaca seluruh form)
+        public static int IDUserAktif = 0;
+        public static string UsernameAktif = "";
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new FormLogin());
+        }
+    }
+}
