@@ -19,8 +19,10 @@ namespace AplikasiKasirTokoBuku
         // Kejadian saat Form Utama Admin pertama kali dibuka ke layar monitor
         private void FormDashboardAdmin_Load(object sender, EventArgs e)
         {
+            label1.Visible = false;
             // Mengubah kalimat sambutan teks label dengan mengambil variabel sesi nama user aktif global
             lblSelamatDatang.Text = "Selamat Datang, " + Program.UsernameAktif + "!";
+            lblSelamatDatang.BackColor = Color.Transparent;
         }
 
         private void btnMenuBuku_Click(object sender, EventArgs e)
