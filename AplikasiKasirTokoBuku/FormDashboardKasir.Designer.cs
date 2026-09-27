@@ -39,29 +39,26 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(177, 144);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(266, 222);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(243, 37);
+            this.label1.Size = new System.Drawing.Size(354, 54);
             this.label1.TabIndex = 0;
             this.label1.Text = "DashBoard KASIR";
             // 
             // lblSelamatDatang
             // 
             this.lblSelamatDatang.AutoSize = true;
-            this.lblSelamatDatang.Location = new System.Drawing.Point(156, 64);
-            this.lblSelamatDatang.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblSelamatDatang.Location = new System.Drawing.Point(234, 98);
             this.lblSelamatDatang.Name = "lblSelamatDatang";
-            this.lblSelamatDatang.Size = new System.Drawing.Size(95, 13);
+            this.lblSelamatDatang.Size = new System.Drawing.Size(143, 20);
             this.lblSelamatDatang.TabIndex = 1;
             this.lblSelamatDatang.Text = "DashBoard KASIR";
             // 
             // btnMenuTransaksi
             // 
-            this.btnMenuTransaksi.Location = new System.Drawing.Point(8, 144);
-            this.btnMenuTransaksi.Margin = new System.Windows.Forms.Padding(2);
+            this.btnMenuTransaksi.Location = new System.Drawing.Point(12, 222);
             this.btnMenuTransaksi.Name = "btnMenuTransaksi";
-            this.btnMenuTransaksi.Size = new System.Drawing.Size(135, 37);
+            this.btnMenuTransaksi.Size = new System.Drawing.Size(202, 57);
             this.btnMenuTransaksi.TabIndex = 2;
             this.btnMenuTransaksi.Text = "Transaksi";
             this.btnMenuTransaksi.UseVisualStyleBackColor = true;
@@ -69,10 +66,9 @@
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(8, 264);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLogout.Location = new System.Drawing.Point(12, 406);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(66, 22);
+            this.btnLogout.Size = new System.Drawing.Size(99, 34);
             this.btnLogout.TabIndex = 3;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = true;
@@ -80,15 +76,16 @@
             // 
             // FormDashboardKasir
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AplikasiKasirTokoBuku.Properties.Resources.Screenshot_2026_09_27_144140;
-            this.ClientSize = new System.Drawing.Size(431, 292);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(646, 449);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnMenuTransaksi);
             this.Controls.Add(this.lblSelamatDatang);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.DoubleBuffered = true;
             this.Name = "FormDashboardKasir";
             this.Text = "FormDashboardKasir";
             this.Load += new System.EventHandler(this.FormDashboardKasir_Load);

@@ -104,13 +104,13 @@
             this.dgvStokGudang.Name = "dgvStokGudang";
             this.dgvStokGudang.RowHeadersWidth = 62;
             this.dgvStokGudang.RowTemplate.Height = 28;
-            this.dgvStokGudang.Size = new System.Drawing.Size(776, 165);
+            this.dgvStokGudang.Size = new System.Drawing.Size(1710, 376);
             this.dgvStokGudang.TabIndex = 6;
             this.dgvStokGudang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvStokGudang_CellClick);
             // 
             // btnKembaliDashboard
             // 
-            this.btnKembaliDashboard.Location = new System.Drawing.Point(17, 112);
+            this.btnKembaliDashboard.Location = new System.Drawing.Point(12, 87);
             this.btnKembaliDashboard.Name = "btnKembaliDashboard";
             this.btnKembaliDashboard.Size = new System.Drawing.Size(100, 35);
             this.btnKembaliDashboard.TabIndex = 19;
@@ -134,7 +134,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::AplikasiKasirTokoBuku.Properties.Resources._6;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1734, 661);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.btnKembaliDashboard);
             this.Controls.Add(this.dgvStokGudang);

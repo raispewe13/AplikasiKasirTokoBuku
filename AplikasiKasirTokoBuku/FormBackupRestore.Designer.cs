@@ -41,7 +41,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(22, 49);
+            this.label1.Location = new System.Drawing.Point(22, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(749, 54);
             this.label1.TabIndex = 0;
@@ -78,7 +78,7 @@
             // 
             // btnKembaliDashboard
             // 
-            this.btnKembaliDashboard.Location = new System.Drawing.Point(12, 137);
+            this.btnKembaliDashboard.Location = new System.Drawing.Point(12, 75);
             this.btnKembaliDashboard.Name = "btnKembaliDashboard";
             this.btnKembaliDashboard.Size = new System.Drawing.Size(100, 35);
             this.btnKembaliDashboard.TabIndex = 19;
@@ -102,6 +102,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::AplikasiKasirTokoBuku.Properties.Resources._8;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.btnKembaliDashboard);

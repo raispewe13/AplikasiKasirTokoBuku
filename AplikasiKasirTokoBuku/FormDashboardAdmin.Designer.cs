@@ -42,10 +42,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(147, 68);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(220, 105);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(259, 37);
+            this.label1.Size = new System.Drawing.Size(379, 54);
             this.label1.TabIndex = 0;
             this.label1.Text = "Dashboard ADMIN";
             // 
@@ -54,19 +53,17 @@
             this.lblSelamatDatang.AutoSize = true;
             this.lblSelamatDatang.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSelamatDatang.LiveSetting = System.Windows.Forms.Automation.AutomationLiveSetting.Assertive;
-            this.lblSelamatDatang.Location = new System.Drawing.Point(159, 41);
-            this.lblSelamatDatang.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblSelamatDatang.Location = new System.Drawing.Point(238, 63);
             this.lblSelamatDatang.Name = "lblSelamatDatang";
-            this.lblSelamatDatang.Size = new System.Drawing.Size(232, 27);
+            this.lblSelamatDatang.Size = new System.Drawing.Size(345, 41);
             this.lblSelamatDatang.TabIndex = 1;
             this.lblSelamatDatang.Text = "lblSelamatDatang";
             // 
             // btnMenuBuku
             // 
-            this.btnMenuBuku.Location = new System.Drawing.Point(22, 120);
-            this.btnMenuBuku.Margin = new System.Windows.Forms.Padding(2);
+            this.btnMenuBuku.Location = new System.Drawing.Point(33, 185);
             this.btnMenuBuku.Name = "btnMenuBuku";
-            this.btnMenuBuku.Size = new System.Drawing.Size(178, 44);
+            this.btnMenuBuku.Size = new System.Drawing.Size(267, 68);
             this.btnMenuBuku.TabIndex = 2;
             this.btnMenuBuku.Text = "Management Buku";
             this.btnMenuBuku.UseVisualStyleBackColor = true;
@@ -74,10 +71,9 @@
             // 
             // btnMenuStok
             // 
-            this.btnMenuStok.Location = new System.Drawing.Point(22, 168);
-            this.btnMenuStok.Margin = new System.Windows.Forms.Padding(2);
+            this.btnMenuStok.Location = new System.Drawing.Point(33, 258);
             this.btnMenuStok.Name = "btnMenuStok";
-            this.btnMenuStok.Size = new System.Drawing.Size(178, 47);
+            this.btnMenuStok.Size = new System.Drawing.Size(267, 72);
             this.btnMenuStok.TabIndex = 3;
             this.btnMenuStok.Text = "Management stok";
             this.btnMenuStok.UseVisualStyleBackColor = true;
@@ -85,10 +81,9 @@
             // 
             // btnMenuLaporan
             // 
-            this.btnMenuLaporan.Location = new System.Drawing.Point(22, 219);
-            this.btnMenuLaporan.Margin = new System.Windows.Forms.Padding(2);
+            this.btnMenuLaporan.Location = new System.Drawing.Point(33, 337);
             this.btnMenuLaporan.Name = "btnMenuLaporan";
-            this.btnMenuLaporan.Size = new System.Drawing.Size(178, 44);
+            this.btnMenuLaporan.Size = new System.Drawing.Size(267, 68);
             this.btnMenuLaporan.TabIndex = 4;
             this.btnMenuLaporan.Text = "Laporan Penjualan";
             this.btnMenuLaporan.UseVisualStyleBackColor = true;
@@ -96,10 +91,9 @@
             // 
             // btnMenuBackup
             // 
-            this.btnMenuBackup.Location = new System.Drawing.Point(22, 266);
-            this.btnMenuBackup.Margin = new System.Windows.Forms.Padding(2);
+            this.btnMenuBackup.Location = new System.Drawing.Point(33, 409);
             this.btnMenuBackup.Name = "btnMenuBackup";
-            this.btnMenuBackup.Size = new System.Drawing.Size(178, 45);
+            this.btnMenuBackup.Size = new System.Drawing.Size(267, 69);
             this.btnMenuBackup.TabIndex = 5;
             this.btnMenuBackup.Text = "Backup";
             this.btnMenuBackup.UseVisualStyleBackColor = true;
@@ -107,10 +101,9 @@
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(447, 296);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLogout.Location = new System.Drawing.Point(670, 455);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(63, 23);
+            this.btnLogout.Size = new System.Drawing.Size(94, 35);
             this.btnLogout.TabIndex = 6;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = true;
@@ -118,10 +111,11 @@
             // 
             // FormDashboardAdmin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AplikasiKasirTokoBuku.Properties.Resources.Screenshot_2026_09_27_143532;
-            this.ClientSize = new System.Drawing.Size(521, 330);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(782, 508);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnMenuBackup);
             this.Controls.Add(this.btnMenuLaporan);
@@ -129,7 +123,7 @@
             this.Controls.Add(this.btnMenuBuku);
             this.Controls.Add(this.lblSelamatDatang);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.DoubleBuffered = true;
             this.Name = "FormDashboardAdmin";
             this.Text = "FormDashboardAdmin";
             this.Load += new System.EventHandler(this.FormDashboardAdmin_Load);

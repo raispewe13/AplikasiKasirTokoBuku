@@ -55,7 +55,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(8, 195);
+            this.label2.Location = new System.Drawing.Point(15, 247);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(111, 20);
             this.label2.TabIndex = 1;
@@ -64,7 +64,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(286, 195);
+            this.label3.Location = new System.Drawing.Point(293, 247);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(128, 20);
             this.label3.TabIndex = 2;
@@ -72,21 +72,21 @@
             // 
             // dtpMulai
             // 
-            this.dtpMulai.Location = new System.Drawing.Point(125, 193);
+            this.dtpMulai.Location = new System.Drawing.Point(132, 245);
             this.dtpMulai.Name = "dtpMulai";
             this.dtpMulai.Size = new System.Drawing.Size(154, 26);
             this.dtpMulai.TabIndex = 3;
             // 
             // dtpSelesai
             // 
-            this.dtpSelesai.Location = new System.Drawing.Point(420, 194);
+            this.dtpSelesai.Location = new System.Drawing.Point(427, 246);
             this.dtpSelesai.Name = "dtpSelesai";
             this.dtpSelesai.Size = new System.Drawing.Size(154, 26);
             this.dtpSelesai.TabIndex = 4;
             // 
             // btnFilter
             // 
-            this.btnFilter.Location = new System.Drawing.Point(12, 231);
+            this.btnFilter.Location = new System.Drawing.Point(19, 289);
             this.btnFilter.Name = "btnFilter";
             this.btnFilter.Size = new System.Drawing.Size(111, 35);
             this.btnFilter.TabIndex = 5;
@@ -96,7 +96,7 @@
             // 
             // btnEkspor
             // 
-            this.btnEkspor.Location = new System.Drawing.Point(12, 403);
+            this.btnEkspor.Location = new System.Drawing.Point(12, 621);
             this.btnEkspor.Name = "btnEkspor";
             this.btnEkspor.Size = new System.Drawing.Size(111, 35);
             this.btnEkspor.TabIndex = 6;
@@ -107,11 +107,11 @@
             // dgvLaporan
             // 
             this.dgvLaporan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvLaporan.Location = new System.Drawing.Point(12, 272);
+            this.dgvLaporan.Location = new System.Drawing.Point(12, 330);
             this.dgvLaporan.Name = "dgvLaporan";
             this.dgvLaporan.RowHeadersWidth = 62;
             this.dgvLaporan.RowTemplate.Height = 28;
-            this.dgvLaporan.Size = new System.Drawing.Size(776, 125);
+            this.dgvLaporan.Size = new System.Drawing.Size(1714, 285);
             this.dgvLaporan.TabIndex = 7;
             // 
             // btnKembaliDashboard
@@ -140,7 +140,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::AplikasiKasirTokoBuku.Properties.Resources._7;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1738, 668);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.btnKembaliDashboard);
             this.Controls.Add(this.dgvLaporan);
@@ -153,6 +155,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FormLaporanPenjualan";
             this.Text = "FormLaporanPenjualan";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.dgvLaporan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

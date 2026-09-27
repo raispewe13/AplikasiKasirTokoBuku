@@ -65,7 +65,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 150);
+            this.label2.Location = new System.Drawing.Point(12, 168);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(169, 20);
             this.label2.TabIndex = 1;
@@ -74,7 +74,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 197);
+            this.label3.Location = new System.Drawing.Point(12, 215);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 20);
             this.label3.TabIndex = 2;
@@ -83,7 +83,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 226);
+            this.label4.Location = new System.Drawing.Point(12, 244);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(90, 20);
             this.label4.TabIndex = 3;
@@ -92,7 +92,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(228, 197);
+            this.label5.Location = new System.Drawing.Point(228, 215);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(53, 20);
             this.label5.TabIndex = 4;
@@ -101,7 +101,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(409, 197);
+            this.label6.Location = new System.Drawing.Point(409, 215);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(42, 20);
             this.label6.TabIndex = 5;
@@ -110,7 +110,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(14, 388);
+            this.label7.Location = new System.Drawing.Point(14, 609);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(208, 20);
             this.label7.TabIndex = 6;
@@ -119,31 +119,31 @@
             // dgvKeranjang
             // 
             this.dgvKeranjang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvKeranjang.Location = new System.Drawing.Point(16, 260);
+            this.dgvKeranjang.Location = new System.Drawing.Point(12, 285);
             this.dgvKeranjang.Name = "dgvKeranjang";
             this.dgvKeranjang.RowHeadersWidth = 62;
             this.dgvKeranjang.RowTemplate.Height = 28;
-            this.dgvKeranjang.Size = new System.Drawing.Size(772, 115);
+            this.dgvKeranjang.Size = new System.Drawing.Size(1676, 311);
             this.dgvKeranjang.TabIndex = 7;
             // 
             // txtCariBuku
             // 
-            this.txtCariBuku.Location = new System.Drawing.Point(187, 150);
+            this.txtCariBuku.Location = new System.Drawing.Point(187, 168);
             this.txtCariBuku.Name = "txtCariBuku";
-            this.txtCariBuku.Size = new System.Drawing.Size(253, 26);
+            this.txtCariBuku.Size = new System.Drawing.Size(279, 26);
             this.txtCariBuku.TabIndex = 8;
             // 
             // txtJumlahBeli
             // 
-            this.txtJumlahBeli.Location = new System.Drawing.Point(108, 223);
+            this.txtJumlahBeli.Location = new System.Drawing.Point(108, 241);
             this.txtJumlahBeli.Name = "txtJumlahBeli";
-            this.txtJumlahBeli.Size = new System.Drawing.Size(71, 26);
+            this.txtJumlahBeli.Size = new System.Drawing.Size(97, 26);
             this.txtJumlahBeli.TabIndex = 9;
             // 
             // lblJudul
             // 
             this.lblJudul.AutoSize = true;
-            this.lblJudul.Location = new System.Drawing.Point(111, 197);
+            this.lblJudul.Location = new System.Drawing.Point(111, 215);
             this.lblJudul.Name = "lblJudul";
             this.lblJudul.Size = new System.Drawing.Size(51, 20);
             this.lblJudul.TabIndex = 10;
@@ -152,7 +152,7 @@
             // lblHarga
             // 
             this.lblHarga.AutoSize = true;
-            this.lblHarga.Location = new System.Drawing.Point(287, 197);
+            this.lblHarga.Location = new System.Drawing.Point(287, 215);
             this.lblHarga.Name = "lblHarga";
             this.lblHarga.Size = new System.Drawing.Size(51, 20);
             this.lblHarga.TabIndex = 11;
@@ -161,7 +161,7 @@
             // lblStok
             // 
             this.lblStok.AutoSize = true;
-            this.lblStok.Location = new System.Drawing.Point(457, 197);
+            this.lblStok.Location = new System.Drawing.Point(457, 215);
             this.lblStok.Name = "lblStok";
             this.lblStok.Size = new System.Drawing.Size(60, 20);
             this.lblStok.TabIndex = 12;
@@ -170,7 +170,7 @@
             // lblTotalHarga
             // 
             this.lblTotalHarga.AutoSize = true;
-            this.lblTotalHarga.Location = new System.Drawing.Point(228, 388);
+            this.lblTotalHarga.Location = new System.Drawing.Point(228, 609);
             this.lblTotalHarga.Name = "lblTotalHarga";
             this.lblTotalHarga.Size = new System.Drawing.Size(60, 20);
             this.lblTotalHarga.TabIndex = 13;
@@ -178,9 +178,9 @@
             // 
             // btnCari
             // 
-            this.btnCari.Location = new System.Drawing.Point(446, 150);
+            this.btnCari.Location = new System.Drawing.Point(472, 167);
             this.btnCari.Name = "btnCari";
-            this.btnCari.Size = new System.Drawing.Size(71, 27);
+            this.btnCari.Size = new System.Drawing.Size(97, 28);
             this.btnCari.TabIndex = 14;
             this.btnCari.Text = "Cari";
             this.btnCari.UseVisualStyleBackColor = true;
@@ -188,9 +188,9 @@
             // 
             // btnTambahKeranjang
             // 
-            this.btnTambahKeranjang.Location = new System.Drawing.Point(187, 223);
+            this.btnTambahKeranjang.Location = new System.Drawing.Point(211, 241);
             this.btnTambahKeranjang.Name = "btnTambahKeranjang";
-            this.btnTambahKeranjang.Size = new System.Drawing.Size(88, 27);
+            this.btnTambahKeranjang.Size = new System.Drawing.Size(114, 28);
             this.btnTambahKeranjang.TabIndex = 15;
             this.btnTambahKeranjang.Text = "Tambah";
             this.btnTambahKeranjang.UseVisualStyleBackColor = true;
@@ -198,7 +198,7 @@
             // 
             // btnHapusItem
             // 
-            this.btnHapusItem.Location = new System.Drawing.Point(663, 381);
+            this.btnHapusItem.Location = new System.Drawing.Point(1563, 602);
             this.btnHapusItem.Name = "btnHapusItem";
             this.btnHapusItem.Size = new System.Drawing.Size(125, 27);
             this.btnHapusItem.TabIndex = 16;
@@ -208,7 +208,7 @@
             // 
             // btnBayar
             // 
-            this.btnBayar.Location = new System.Drawing.Point(12, 411);
+            this.btnBayar.Location = new System.Drawing.Point(12, 632);
             this.btnBayar.Name = "btnBayar";
             this.btnBayar.Size = new System.Drawing.Size(167, 27);
             this.btnBayar.TabIndex = 17;
@@ -230,7 +230,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Agency FB", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(-115, 127);
+            this.label8.Location = new System.Drawing.Point(392, 63);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(1041, 20);
             this.label8.TabIndex = 20;
@@ -242,7 +242,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::AplikasiKasirTokoBuku.Properties.Resources._5;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1700, 671);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.btnKembaliDashboard);
             this.Controls.Add(this.btnBayar);
@@ -265,6 +267,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FormTransaksiPenjualan";
             this.Text = "FormTransaksiPenjualan";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.dgvKeranjang)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
