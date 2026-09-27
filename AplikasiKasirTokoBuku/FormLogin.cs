@@ -84,7 +84,7 @@ namespace AplikasiKasirTokoBuku
                 return;
             }
 
-            // 3. Mengisi properti data objek model berdasarkan masukan kotak teks antarmuka
+            // 3. Mengisi properti data objek model berdasarkan masukan kotak teks antarmukafcedfedfdcccdscd
             objekUser.Username = txtUsername.Text.Trim();
             objekUser.Password = txtPassword.Text.Trim();
             objekUser.Role = cmbRoleDaftar.SelectedItem.ToString();
