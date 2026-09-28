@@ -9,7 +9,7 @@ namespace AplikasiKasirTokoBuku
 {
     public class Koneksi
     {
-        // 1. Menyimpan alamat parameter koneksi database MySQL lokal tanpa password sesuai instruksi
+        // 1. Menyimpan alamat parameter koneksi database MySQL lokal tanpa password sesuai instruksi p
         private static string connectionString = "Server=localhost;Username=root;Port=3306;database=db_tokobuku";
 
         // 2. Fungsi statis (OOP Method) untuk memanggil dan membuka objek koneksi dari kelas manapun
