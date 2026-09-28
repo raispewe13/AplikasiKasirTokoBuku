@@ -61,7 +61,7 @@ namespace AplikasiKasirTokoBuku
         }
         private void Form_FormClosing(object sender, FormClosingEventArgs e)
         {
-            // Menutup total seluruh background process aplikasi saat tombol X silang ditekan langsung
+            // Menutup total seluruh background process aplikasi saat tombol X silang ditekan langsung h
             Application.Exit();
         }
 
