@@ -21,6 +21,10 @@ namespace AplikasiKasirTokoBuku
         private void FormManajemenBuku_Load(object sender, EventArgs e)
         {
             RefreshDataGrid(); // Mengisi tabel data grid view otomatis saat form di-load awal
+            label8.Visible = false;
+            label1.Visible = false;
+            label2.BackColor = Color.Transparent; label3.BackColor = Color.Transparent; label4.BackColor = Color.Transparent; label5.BackColor = Color.Transparent; label6.BackColor = Color.Transparent;
+            label7.BackColor = Color.Transparent;
         }
 
         // Fungsi penyegar data grid view agar selaras dengan tabel database paling aktual

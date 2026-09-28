@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -64,5 +65,11 @@ namespace AplikasiKasirTokoBuku
             Application.Exit();
         }
 
+        private void FormBackupRestore_Load(object sender, EventArgs e)
+        {
+            label1.Visible = false;
+            label8.Visible = false;
+            label2.BackColor = Color.Transparent;
+        }
     }
 }

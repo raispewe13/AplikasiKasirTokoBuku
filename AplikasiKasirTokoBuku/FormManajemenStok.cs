@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -20,6 +21,11 @@ namespace AplikasiKasirTokoBuku
         private void FormManajemenStok_Load(object sender, EventArgs e)
         {
             RefreshStokGrid(); // Memanggil daftar sisa kuantitas persediaan barang buku terkini kala modul form dibuka pertama kali
+            label1.Visible = false;
+            label8.Visible = false;
+            label2.BackColor = Color.Transparent;
+            label3.BackColor = Color.Transparent;
+            lblBukuTerpilih.BackColor = Color.Transparent;
         }
 
         private void RefreshStokGrid()

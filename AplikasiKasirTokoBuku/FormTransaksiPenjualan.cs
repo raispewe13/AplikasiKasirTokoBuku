@@ -215,5 +215,18 @@ namespace AplikasiKasirTokoBuku
             Application.Exit();
         }
 
+        private void FormTransaksiPenjualan_Load(object sender, EventArgs e)
+        {
+            label1.Visible = false;
+            label8.Visible = false;
+            label2.BackColor = Color.Transparent;
+            label3.BackColor = Color.Transparent;
+            label4.BackColor = Color.Transparent;
+            lblJudul.BackColor = Color.Transparent;
+            label5.BackColor = Color.Transparent;
+            lblHarga.BackColor = Color.Transparent;
+            label6.BackColor = Color.Transparent;
+            lblStok.BackColor = Color.Transparent;
+        }
     }
 }

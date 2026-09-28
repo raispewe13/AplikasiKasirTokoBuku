@@ -46,49 +46,55 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(176, 9);
+            this.label1.Location = new System.Drawing.Point(117, 6);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(457, 54);
+            this.label1.Size = new System.Drawing.Size(310, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "LAPORAN PENJUALAN";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 247);
+            this.label2.Location = new System.Drawing.Point(10, 161);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 20);
+            this.label2.Size = new System.Drawing.Size(77, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mulai Tanggal:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(293, 247);
+            this.label3.Location = new System.Drawing.Point(195, 161);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(128, 20);
+            this.label3.Size = new System.Drawing.Size(87, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Sampai Tanggal:";
             // 
             // dtpMulai
             // 
-            this.dtpMulai.Location = new System.Drawing.Point(132, 245);
+            this.dtpMulai.Location = new System.Drawing.Point(88, 159);
+            this.dtpMulai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtpMulai.Name = "dtpMulai";
-            this.dtpMulai.Size = new System.Drawing.Size(154, 26);
+            this.dtpMulai.Size = new System.Drawing.Size(104, 20);
             this.dtpMulai.TabIndex = 3;
             // 
             // dtpSelesai
             // 
-            this.dtpSelesai.Location = new System.Drawing.Point(427, 246);
+            this.dtpSelesai.Location = new System.Drawing.Point(285, 160);
+            this.dtpSelesai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtpSelesai.Name = "dtpSelesai";
-            this.dtpSelesai.Size = new System.Drawing.Size(154, 26);
+            this.dtpSelesai.Size = new System.Drawing.Size(104, 20);
             this.dtpSelesai.TabIndex = 4;
             // 
             // btnFilter
             // 
-            this.btnFilter.Location = new System.Drawing.Point(19, 289);
+            this.btnFilter.Location = new System.Drawing.Point(13, 188);
+            this.btnFilter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFilter.Name = "btnFilter";
-            this.btnFilter.Size = new System.Drawing.Size(111, 35);
+            this.btnFilter.Size = new System.Drawing.Size(74, 23);
             this.btnFilter.TabIndex = 5;
             this.btnFilter.Text = "Filter";
             this.btnFilter.UseVisualStyleBackColor = true;
@@ -96,9 +102,10 @@
             // 
             // btnEkspor
             // 
-            this.btnEkspor.Location = new System.Drawing.Point(12, 621);
+            this.btnEkspor.Location = new System.Drawing.Point(8, 404);
+            this.btnEkspor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEkspor.Name = "btnEkspor";
-            this.btnEkspor.Size = new System.Drawing.Size(111, 35);
+            this.btnEkspor.Size = new System.Drawing.Size(74, 23);
             this.btnEkspor.TabIndex = 6;
             this.btnEkspor.Text = "Ekspor";
             this.btnEkspor.UseVisualStyleBackColor = true;
@@ -107,18 +114,20 @@
             // dgvLaporan
             // 
             this.dgvLaporan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvLaporan.Location = new System.Drawing.Point(12, 330);
+            this.dgvLaporan.Location = new System.Drawing.Point(8, 214);
+            this.dgvLaporan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvLaporan.Name = "dgvLaporan";
             this.dgvLaporan.RowHeadersWidth = 62;
             this.dgvLaporan.RowTemplate.Height = 28;
-            this.dgvLaporan.Size = new System.Drawing.Size(1714, 285);
+            this.dgvLaporan.Size = new System.Drawing.Size(1143, 185);
             this.dgvLaporan.TabIndex = 7;
             // 
             // btnKembaliDashboard
             // 
-            this.btnKembaliDashboard.Location = new System.Drawing.Point(12, 118);
+            this.btnKembaliDashboard.Location = new System.Drawing.Point(8, 77);
+            this.btnKembaliDashboard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnKembaliDashboard.Name = "btnKembaliDashboard";
-            this.btnKembaliDashboard.Size = new System.Drawing.Size(98, 35);
+            this.btnKembaliDashboard.Size = new System.Drawing.Size(65, 23);
             this.btnKembaliDashboard.TabIndex = 19;
             this.btnKembaliDashboard.Text = "Dashboard";
             this.btnKembaliDashboard.UseVisualStyleBackColor = true;
@@ -128,9 +137,10 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Agency FB", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(-107, 156);
+            this.label8.Location = new System.Drawing.Point(-71, 101);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(1041, 20);
+            this.label8.Size = new System.Drawing.Size(695, 14);
             this.label8.TabIndex = 20;
             this.label8.Text = "_________________________________________________________________________________" +
     "________________________________________________________________________________" +
@@ -138,11 +148,11 @@
             // 
             // FormLaporanPenjualan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AplikasiKasirTokoBuku.Properties.Resources._7;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1738, 668);
+            this.ClientSize = new System.Drawing.Size(913, 434);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.btnKembaliDashboard);
             this.Controls.Add(this.dgvLaporan);
@@ -153,9 +163,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormLaporanPenjualan";
             this.Text = "FormLaporanPenjualan";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FormLaporanPenjualan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLaporan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

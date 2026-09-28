@@ -62,5 +62,10 @@ namespace AplikasiKasirTokoBuku
             Application.Exit();
         }
 
+        private void FormLaporanPenjualan_Load(object sender, EventArgs e)
+        {
+            label1.Visible = false;
+            label8.Visible = false;
+        }
     }
 }

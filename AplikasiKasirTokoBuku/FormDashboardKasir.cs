@@ -20,6 +20,8 @@ namespace AplikasiKasirTokoBuku
         {
             // Merender teks nama kasir yang berhasil login dari memori program global statis
             lblSelamatDatang.Text = "Selamat Datang, " + Program.UsernameAktif + "!";
+            lblSelamatDatang.BackColor = Color.Transparent;
+            label1.Visible = false;
         }
 
         private void btnMenuTransaksi_Click(object sender, EventArgs e)
