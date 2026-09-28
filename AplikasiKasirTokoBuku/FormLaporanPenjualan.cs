@@ -66,6 +66,8 @@ namespace AplikasiKasirTokoBuku
         {
             label1.Visible = false;
             label8.Visible = false;
+            label2.BackColor = Color.Transparent;
+            label3.BackColor = Color.Transparent;
         }
     }
 }
